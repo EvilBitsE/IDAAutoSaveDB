@@ -114,7 +114,7 @@ class AutoSaveDB(idaapi.plugin_t):
 			addon.id = "cn.hz.EvilBitsE"
 			addon.name = "AutoSaveDB"
 			addon.producer = "EvilBitsE"
-			addon.url = "https://github.com/EvilBitsE"
+			addon.url = "https://github.com/EvilBitsE/IDAAutoSaveDB"
 			addon.version = "1.0.0.0"
 			idaapi.register_addon(addon)
 		return idaapi.PLUGIN_OK
